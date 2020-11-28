@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=., initial-scale=1.0">
     <title>Minha lojinha na Internet</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         </div>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Menu</a>
+            <a class="navbar-brand" href="#">MENU</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,36 +27,80 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li> <a href=""> Home</a></li>
-                    <li> <a href=""> Quem Somos </a></li>  
-                    <li> <a href=""> Contato </a></li>
-                    <li> <a href=""> Fique por Dentro</a></li>  
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <a class="nav-link" href="#">Quem Somos</a>
+                    </li>
+                    <a class="nav-link" href="#">Contato </a>
+                    </li>
+                    <a class="nav-link" href="#">Fique por Dentro</a>
+                    </li>
                 </ul>
-
             </div>
         </nav>
+
+        <div class="row" id="imagemLogo">
+            <div class="col-md-12">
+                <img id="logoLoja" src="imagens/e-commerce.jpg">
+            </div>
+        </div>
+
+        <div class="row" id="tituloDestaque">
+            <div class="col-md-12">
+                <h3>Nossos Destaques</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/gift1.PNG" alt="Card image cap">
+                    <h5 class="card-title">$10,00</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Produto 1 </h6>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/gift2.PNG" alt="Card image cap">
+                    <h5 class="card-title">$20,00</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Produto 2 </h6>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imagens/gift3.PNG" alt="Card image cap">
+                    <h5 class="card-title">$30,00</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Produto 3 </h6>
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="rodape">
+            <div class="col-md-12">
+                <p><img src="imagens/Whatsapp_icon.png"> +55 11 9-8765-4321<br></p>
+                <p><img src="imagens/pinterest_icon.png"> +55 11 9-8765-4321<br></p>
+                <p><img src="imagens/Whatsapp_icon.png"> +55 11 9-8765-4321<br></p>
+
+
+            </div>
+            <div class="col-md-12">
+
+            </div>
+        </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

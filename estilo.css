@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    background-color: white;
+}
+
+#logoLoja{
+    width: 100%;
+}
+
+#logoLoja{
+    margin-bottom: 30px ;
+}
+
+#tituloDestaque{
+    margin-bottom: 30px;
+}
+
+h3{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
