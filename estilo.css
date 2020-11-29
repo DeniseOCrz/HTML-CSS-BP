@@ -6,16 +6,8 @@ body{
     background-color: white;
 }
 
-#logoLoja{
-    width: 100%;
-}
-
-#logoLoja{
-    margin-bottom: 30px ;
-}
-
-#tituloDestaque{
-    margin-bottom: 30px;
+.container-fluid{
+    background-color: white;
 }
 
 h3{
@@ -28,4 +20,26 @@ h5{
 
 h6{
     text-align: center;
+}
+
+#logoLoja{
+    width: 100%;
+}
+
+#logoLoja{
+    margin-bottom: 30px ;
+}
+
+#tituloDestaque{
+    margin-bottom: 30px;
+}
+
+#rodape{
+    padding-top: 50px;
+    background-color: darkgrey;
+    color: white;
+}
+
+#receba{
+
 }
